@@ -1,0 +1,37 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+Dotnet-Core-Scaffolding-MySQL/[Dd]ebug/
+Dotnet-Core-Scaffolding-MySQL/[Dd]ebugPublic/
+Dotnet-Core-Scaffolding-MySQL/[Rr]elease/
+Dotnet-Core-Scaffolding-MySQL/[Rr]eleases/
+Dotnet-Core-Scaffolding-MySQL/x64/
+Dotnet-Core-Scaffolding-MySQL/x86/
+Dotnet-Core-Scaffolding-MySQL/build/
+Dotnet-Core-Scaffolding-MySQL/bld/
+Dotnet-Core-Scaffolding-MySQL/[Bb]in/
+Dotnet-Core-Scaffolding-MySQL/[Oo]bj/
+Dotnet-Core-Scaffolding-MySQL/[Oo]ut/
+Dotnet-Core-Scaffolding-MySQL/msbuild.log
+Dotnet-Core-Scaffolding-MySQL/msbuild.err
+Dotnet-Core-Scaffolding-MySQL/msbuild.wrn
+
+# Visual Studio 2015
+.vs/
