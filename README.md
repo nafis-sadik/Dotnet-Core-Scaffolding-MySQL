@@ -36,13 +36,15 @@ It's very simple. It's a C# class library targeting ***.net core 3.1.*** So make
 Scaffold-DbContext "server=[Database Source];User Id=[Your User Id];Password=[Your Password];Database=[Database Name];Port=[Your Port];" MySql.EntityFrameworkCore -OutputDir Models
 ```
 
-***Example***
-```Scaffold-DbContext "server=localhost;User Id=root;Database=test;Port=3306;" MySql.EntityFrameworkCore -OutputDir Models```
 
 **For Xampp**
 * Default Port is 3306
 * Default user is root
 * No password for root user, so remove the password section from connection string above at ***Step # 4***
+
+***Example (Connection string for Xampp)***
+
+```Scaffold-DbContext "server=localhost;User Id=root;Database=test;Port=3306;" MySql.EntityFrameworkCore -OutputDir Models```
 
 License
 ----
